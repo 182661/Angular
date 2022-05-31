@@ -1,0 +1,51 @@
+<section class="vh-100 bg-image">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <form [formGroup]="formValue">
+<div class="form-outline mb-4">
+  <input type="text" formControlName="Name" id="form3Example1cg" class="form-control form-control-lg" />
+  <label class="form-label" for="form3Example1cg">Name</label>
+</div>
+<div class="form-outline mb-4">
+  <input type="text" formControlName="Slots" id="form3Example1cg" class="form-control form-control-lg" />
+  <label class="form-label" for="form3Example1cg">Slots</label>
+</div>
+<div class="form-outline mb-4">
+  <input type="text" formControlName="Date" id="form3Example1cg" class="form-control form-control-lg" />
+  <label class="form-label" for="form3Example1cg">Date</label>
+</div>
+<div class="d-flex justify-content-center">
+  <button type="button"
+    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" (click)="AddSlot()">Add Slot</button>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--<ag-grid-angular 
+    style="width: 700px; height: 500px;" 
+    class="ag-theme-balham"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs">
+</ag-grid-angular>-->
+<div *ngFor="let obj in Training">
+<mat-card class="example-card">
+    <mat-card-title>{{obj.Name}}</mat-card-title>
+    <mat-card-subtitle>{{obj.Slots}}</mat-card-subtitle>
+    <mat-card-content>
+      <p>{{obj.Time}}</p>
+      <p></p>
+    </mat-card-content>
+    
+  </mat-card>
+</div>

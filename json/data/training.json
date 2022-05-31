@@ -1,0 +1,21 @@
+{
+    "training":[
+        { "Name": "priyanka",
+            "Slots" : "5slots",
+            "Time" : "10 AM-12AM"
+    
+           },
+           { "Name": "Suganthi",
+            "Slots" : "3 Slots",
+            "Time" : "1PM-3AM"
+    
+           }
+    ],
+    "Auth":[
+        {
+           
+            "username": "priyanka",
+            "password": "123456"
+        }
+    ]
+}

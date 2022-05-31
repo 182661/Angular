@@ -1,0 +1,16 @@
+{
+    "slots" :[
+       { "Name": "priyanka",
+        "Day" : "07/02/1990",
+        "Time" : "11 Am"
+
+       },
+       { "Name": "Fuad",
+        "Day" : "07/02/1990",
+        "Time" : "11 Am"
+
+       }
+       
+    ]        
+   
+}
